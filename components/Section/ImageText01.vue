@@ -39,7 +39,7 @@ const bgImageUrl = computed(() => {
   const width = window.innerWidth
   const imageWidth = width < 768 ? 1024 : width < 1280 ? 1920 : 2560
   
-  return img('/images/1_big.jpg', {
+  return img('/images/black.png', {
     width: imageWidth,
     quality: 90,
     format: 'webp',
