@@ -36,7 +36,7 @@ const bgImageUrl = computed(() => {
   const width = window.innerWidth
   const imageWidth = width < 768 ? 1024 : width < 1280 ? 1920 : 2560
   
-  return nuxtImg('/images/2_big.jpg', {
+  return nuxtImg('/images/white.png', {
     width: imageWidth,
     quality: 80,
     format: 'webp',

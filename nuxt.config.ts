@@ -18,7 +18,7 @@ export default defineNuxtConfig({
         { property: 'og:image', content: '/social/banner.png' },
         
         // Twitter Card tags
-        { name: 'twitter:card', content: 'TTACo End-to-end Encryption' },
+        { name: 'twitter:card', content: 'TACo End-to-end Encryption' },
         { name: 'twitter:url', content: 'https://taco.build/' },
         { name: 'twitter:title', content: 'TACo End-to-end Encryption' },
         { name: 'twitter:description', content: 'TACo is an access control plugin that is actually decentralized. Integrate uncensorable e2ee into your applications via the taco-web encrypt/decrypt API.' },

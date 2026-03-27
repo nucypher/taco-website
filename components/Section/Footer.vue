@@ -53,7 +53,7 @@
 
         <!-- Mobile copyright -->
         <div class="flex lg:hidden font-mono flex-col gap-0 leading-[1.3]">
-          ©2025 |  NuCypher Build<br class="!block">
+          ©2026 |  NuCypher Build<br class="!block">
           All Rights Reserved
         </div>
       </div>
@@ -63,7 +63,7 @@
     <div class="w-full bg-black flex flex-row justify-between px-6 max-lg:justify-center py-4 relative">
       <!-- Desktop copyright -->
       <div class="max-lg:hidden text-white text-lg font-normal font-mono mono-text">
-        ©2025 | NuCypher Build – All Rights Reserved
+        ©2026 | NuCypher Build – All Rights Reserved
       </div>
 
       <!-- Logo -->

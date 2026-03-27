@@ -22,7 +22,8 @@
   <script setup>
   // Define partners data with optional URLs
   const partners = [
-    { name: 'BqETH', url: 'https://bqeth.com/' },
+    { name: 'Collab.Land', url: 'https://collab.land/' },
+    { name: 'WEDF', url: 'https://worldethicaldataforum.org/' },
     { name: 'Ceramic', url: 'https://ceramic.network/' },
     { name: 'Recall', url: 'https://recall.network/' },
     { name: 'Waku', url: 'https://waku.org/' },
