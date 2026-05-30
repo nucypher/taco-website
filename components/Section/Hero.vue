@@ -57,17 +57,18 @@
       >
         <h2 class="text-black font-headline text-mobile-2xl lg:text-2xl text-mobile-2xl font-bold">
           <span>Trusting </span>
-          <span class="text-black">centralized platforms </span><br class="max-lg:hidden">
+          <span class="text-black">the cloud</span><br class="max-lg:hidden">
           with <span class="text-[#96FF5E]">secrets management<br class="max-lg:hidden">
-            <span class="text-black"> is like giving Bezos your house keys.</span></span>
+            <span class="text-black"> is like giving Big Tech the keys to your house.</span></span>
         </h2>
         <h3 class="subtitle font-headline mt-6 text-black font-bold text-mobile-xl lg:text-xl">
-          TACo is the only general-purpose access control plugin that works without <br class="max-lg:hidden">
-          
-          trusting an intermediary. So users aren't obliged to trust 
-          <span :class="['transition-colors duration-300', { 'text-[#96FF5E]': isFirstGreen }]">  AWS KMS, </span>
-          <span :class="['transition-colors duration-300', { 'text-[#96FF5E]': isSecondGreen }]">your dev<br> team, </span>
-          <span :class="['transition-colors duration-300', { 'text-[#96FF5E]': isThirdGreen }]">or TACo</span>
+          TACo is a multi-purpose access control plugin that supports an internet free of <br class="max-lg:hidden">
+
+          surveillance, suppression, and single points of failure. <br class="max-lg:hidden"><br class="max-lg:hidden">
+          A FOSS project now managed by the
+          <span :class="['transition-colors duration-300', { 'text-[#96FF5E]': isFirstGreen }]"> World  </span>
+          <span :class="['transition-colors duration-300', { 'text-[#96FF5E]': isSecondGreen }]">Ethical </span>
+          <span :class="['transition-colors duration-300', { 'text-[#96FF5E]': isThirdGreen }]">Data Foundation.</span>
         </h3>
       </div>
     </div>

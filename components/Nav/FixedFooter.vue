@@ -3,7 +3,7 @@
       <p class="absolute bottom-[4.25rem] lg:hidden text-[15px] text-center w-full font-mono mono-text text-[#909090]">TACo is used (but NOT TRUSTED) by</p>
       <div class="lg:h-10 z-30 w-[100%] lg:w-[calc(60rem)] lg:max-w-[80vw] left-1/2 overflow-y-hidden -translate-x-1/2 absolute bottom-4 lg:bottom-8 p-3 bg-[#F4F4F4] lg:rounded-[10px] justify-between items-center">
         <div class="gap-4 font-mono justify-between items-center">
-          <div class="text-[#909090] max-lg:hidden pr-12 absolute bg-[#F4F4F4] z-10 whitespace-nowrap text-lg font-normal mono-text" style="background: linear-gradient(to right, #F4F4F4 90%, transparent);">TACo is used (but NOT TRUSTED) by</div>
+          <div class="text-[#909090] max-lg:hidden pr-12 absolute bg-[#F4F4F4] z-10 whitespace-nowrap text-lg font-normal mono-text" style="background: linear-gradient(to right, #F4F4F4 90%, transparent);">Partners:</div>
           <Vue3Marquee :clone="true">
             <div class="flex items-center gap-4 mr-4  overflow-hidden">
               <div v-for="(partner, index) in partners" :key="index" class="text-black text-[15px] lg:text-lg font-normal">
@@ -22,15 +22,13 @@
   <script setup>
   // Define partners data with optional URLs
   const partners = [
-    { name: 'Collab.Land', url: 'https://collab.land/' },
-    { name: 'WEDF', url: 'https://worldethicaldataforum.org/' },
-    { name: 'Ceramic', url: 'https://ceramic.network/' },
-    { name: 'Recall', url: 'https://recall.network/' },
-    { name: 'Waku', url: 'https://waku.org/' },
+    { name: 'World Ethical Data Foundation', url: 'https://worldethicaldataforum.org/' },
     { name: 'Marlin', url: 'https://www.marlin.org/' },
-    { name: 'Irys', url: 'https://irys.xyz/' },
-    { name: 'Zuzalu', url: 'https://www.zuzalu.city/' },
-    { name: 'Holonym', url: 'https://www.silk.sc/' }, // No URL, will render as plain text
-    { name: 'Masterfile', url: 'https://gonkbonk.com/' }
+    { name: 'Canary', url: 'https://canaryapp.io/' },
+    { name: 'ERA', url: 'https://worldethicaldata.org/projects/era' },
+    { name: 'Waku', url: 'https://waku.org/' },
+    { name: 'Holonym', url: 'https://human.tech/' },
+    { name: 'Masterfile', url: 'https://gonkbonk.com/' },
+    { name: 'Collab.Land', url: 'https://collab.land/' },
   ];
   </script>

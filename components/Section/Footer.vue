@@ -63,7 +63,7 @@
     <div class="w-full bg-black flex flex-row justify-between px-6 max-lg:justify-center py-4 relative">
       <!-- Desktop copyright -->
       <div class="max-lg:hidden text-white text-lg font-normal font-mono mono-text">
-        ©2026 | NuCypher Build – All Rights Reserved
+        ©2026 | World Ethical Data Foundation – All Rights Reserved
       </div>
 
       <!-- Logo -->

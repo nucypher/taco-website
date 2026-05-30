@@ -164,8 +164,8 @@ onMounted(() => {
 
 const items = ref([
   {
-    title: 'NFT-gating',
-    content: 'Predicate decryption rights on ownership of a special-purpose NFTs. Works for digital media, event streams and beyond.',
+    title: 'Token-gating',
+    content: 'Predicate decryption rights on ownership of a special-purpose tokens. Works for digital media, event streams, and beyond.',
     icon: Box,
     codeExample: `import { conditions } from '@nucypher/taco';
 const nft_high_quality_condition = new condition.predefined.erc721.ERC721Balance({
